@@ -39,7 +39,6 @@ export default function StatsByThemes() {
                         <p className='text-sm font-sm'>Demographics, age groups, population...</p>
                     </div>
                 </div>
-                
             </div>
         </>
     )

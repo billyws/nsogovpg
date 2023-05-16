@@ -1,3 +1,4 @@
+import Image from "next/image"
 
 // Create two columns, one for the a form and one for a svg map of Papua New Guinea.
 export default function StatsByProvince() {
@@ -26,15 +27,13 @@ export default function StatsByProvince() {
                                 <option value="western highlands">Western Highlands</option>
                                 <option value="southern highlands">Southern Highlands</option>
                             </select>
-                            
                             <button className="bg-yellow-400 p-2 my-5 rounded">View Statistics</button>
                     </form>
-
                 </div>
                 <div className="basis-3/4 p-5">
                     {/* SVG Map of Papua New Guinea */}
                     <div>
-                        <img src="/images/papua-new-guinea.png" alt="Papua New Guinea" />
+                        <Image src="/images/papua-new-guinea.png" width={500} height={500} alt="Papua New Guinea" />
                     </div>
                 </div>
             </div>
