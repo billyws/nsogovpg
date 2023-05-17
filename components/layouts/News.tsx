@@ -9,7 +9,7 @@ export default function News(){
                         <Link href="#!">
                         <Image
                             className="rounded-t"
-                            src="https://tecdn.b-cdn.net/img/new/standard/nature/184.jpg"
+                            src="/"
                             width={500} 
                             height={500}
                             alt="" />
@@ -47,7 +47,7 @@ export default function News(){
                         <Link href="#!">
                         <Image
                             className="rounded-t"
-                            src="https://tecdn.b-cdn.net/img/new/standard/nature/184.jpg"
+                            src="/"
                             width={500} 
                             height={500}
                             alt="" />

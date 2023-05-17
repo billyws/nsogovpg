@@ -15,7 +15,7 @@ export default function Header() {
       <nav className="px-2 bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700 shadow">
         <div className="container flex flex-wrap items-center justify-between mx-auto max-w-5xl">
           <Link href="#" className="flex items-center">
-              <Image src="/nsologo.png" width={500} height={500} className="h-8 mr-3 sm:h-10" alt="NSO Logo" />
+              <Image src="/nsologo.png" width={60} height={100} className="h-8 mr-3 sm:h-10" alt="NSO Logo" />
               <span className="self-center text-normal font-semibold whitespace-nowrap text-blue-900">National Statistical Office</span>
           </Link>
           <button data-collapse-toggle="navbar-multi-level" type="button" className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-multi-level" aria-expanded="false">
