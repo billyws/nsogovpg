@@ -8,7 +8,7 @@ export default function Showcase(){
                     {/* Population */}
                     <div className="grid grid-cols-2 items-center justify-center">
                         <div>
-                            <img src="/assets/icons/population.png" alt="Population" className="h-15 p-5" /> 
+                            <Image src="/assets/icons/population.png" alt="Population" className="h-15 p-5" /> 
                         </div>
                         <div>
                             <h4 className='text-blue-900 text-sm font-sm'>Population</h4>
