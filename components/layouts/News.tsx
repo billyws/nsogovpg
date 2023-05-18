@@ -44,7 +44,7 @@ export default function News(){
                     </div>
                 </div>
                 <div className="block max-w-sm rounded bg-white shadow dark:bg-neutral-700">
-                        < href="#!">
+                        <Link href="#!">
                         <Image
                             className="rounded-t"
                             src="/"
