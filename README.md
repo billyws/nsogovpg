@@ -7,6 +7,8 @@ See it deployed (working in production) on Vercel - https://nsogovpg-git-main-bi
 First, run the development server:
 
 ```bash
+npm install
+
 npm run dev
 # or
 yarn dev
